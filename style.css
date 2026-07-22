@@ -249,3 +249,15 @@ h1 {
     --secondary: #15324a;
   }
 }
+
+/* 언어 전환 내비게이션 (배우GO 다국어 문서) */
+.lang-nav {
+  font-size: 0.85rem;
+  color: var(--sub);
+  margin: 4px 0 20px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--border);
+}
+.lang-nav a { color: var(--info); text-decoration: none; }
+.lang-nav a:hover { text-decoration: underline; }
+.lang-nav strong { color: var(--text); }
