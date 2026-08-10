@@ -4,22 +4,23 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="robots" content="index,follow" />
-  <title>개인정보처리방침 - にほんGO</title>
+  <title>개인정보처리방침 - 미찌고</title>
   <link rel="stylesheet" href="../style.css" />
 </head>
 <body>
   <main class="container">
     <h1>개인정보처리방침</h1>
-    <div class="effective">시행일: 2026년 05월 27일 · 앱: にほんGO</div>
+    <div class="effective">시행일: 2026년 05월 27일 · 앱: 미찌고</div>
 
     <section class="card">
       <h2>제1조 (개인정보의 처리 목적)</h2>
-      <p>にほんGO(이하 "앱")는 다음의 목적으로 앱을 운영합니다.</p>
+      <p>미찌고(이하 "앱")는 다음의 목적으로 앱을 운영합니다.</p>
       <ul>
         <li>일본어 단어·문법·JLPT 학습 콘텐츠 제공</li>
-        <li>회화 연습 기능 (발음 인식·음성 출력)</li>
+        <li>회화 연습 기능 (원어민 음원 재생·음성 출력)</li>
         <li>학습 진도 관리 및 복습 알림</li>
         <li>광고 서비스 제공 (Google AdMob)</li>
+        <li>유료 구독 결제 처리 및 앱 오류 진단</li>
       </ul>
     </section>
 
@@ -27,13 +28,6 @@
       <h2>제2조 (수집하는 개인정보 항목)</h2>
       <p>앱 자체는 회원가입·로그인 없이 동작하며, 개인 식별 정보를 수집하지 않습니다. 단, 일부 기능 사용 시 아래 권한이 사용될 수 있습니다.</p>
       <div class="collection-box">
-        <div class="collection-item">
-          <div class="icon">🎤</div>
-          <div>
-            <div class="title">마이크 (선택)</div>
-            <div class="desc">회화 발음 연습 시 사용됩니다. 녹음된 음성은 기기 내에서만 처리되며 서버로 전송되지 않습니다.</div>
-          </div>
-        </div>
         <div class="collection-item">
           <div class="icon">🔔</div>
           <div>
@@ -74,7 +68,10 @@
       <p>단, 아래 서비스 이용 시 해당 사업자에게 데이터가 전달될 수 있습니다.</p>
       <ul>
         <li>광고: Google AdMob에 광고 식별자 및 기기 정보 전달 (제3조 참고)</li>
-        <li>음성 합성/인식: 일부 회화 기능에서 OS 내장 음성 엔진을 사용하며, 별도 외부 전송은 없습니다.</li>
+        <li>결제: 구독 상태 관리를 위해 RevenueCat, Inc. 에 스토어 결제 영수증과 익명 식별자가 전달됩니다. 이름·이메일 등 개인 식별 정보는 전달되지 않습니다.</li>
+        <li>오류 진단: 앱이 비정상 종료될 경우 원인 파악을 위해 Sentry(Functional Software, Inc.) 에 오류 내용과 기기·앱 버전 정보가 전송됩니다.</li>
+        <li>음원 배포: 학습 음원 파일을 Cloudflare R2 에서 내려받으며, 이 과정에서 접속 IP 주소가 처리될 수 있습니다.</li>
+        <li>음성 합성: 일부 기능에서 OS 내장 음성 엔진을 사용하며, 별도 외부 전송은 없습니다.</li>
       </ul>
     </section>
 
