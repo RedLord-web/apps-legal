@@ -27,9 +27,41 @@
     <p class="effective">JLPT N5~N1 단어·청해·회화 학습 앱 (한국어)</p>
 
     <div class="store-links">
-      <a class="store-link" href="https://apps.apple.com/kr/app/id6798132036">App Store 에서 받기</a>
-      <a class="store-link" href="https://play.google.com/store/apps/details?id=kr.knotlab.nihongo">Google Play 에서 받기</a>
+      <a class="store-link" id="ios-link" href="https://apps.apple.com/kr/app/id6798132036">App Store 에서 받기</a>
+      <a class="store-link" id="and-link" href="https://play.google.com/store/apps/details?id=kr.knotlab.nihongo">Google Play 에서 받기</a>
     </div>
+
+    <script>
+    // 유입 채널 추적.
+    //
+    // 채널마다 스토어 링크를 따로 만들면 관리가 금방 엉킨다. 대신 이 페이지가
+    // ?c=<채널> 을 받아 각 스토어가 이해하는 형식으로 바꿔 붙인다.
+    // 홍보에는 링크 하나만 쓰면 되고, 양 스토어 통계에 같은 이름으로 잡힌다.
+    //
+    //   https://redlord-web.github.io/apps-legal/nihongo/?c=youtube
+    //
+    // Apple 은 캠페인 토큰(ct)과 제공자 토큰(pt)을 함께 받는다.
+    // pt 는 App Store Connect > 분석 > 획득 > 캠페인에서 링크를 한 번 생성하면
+    // URL 안에 들어 있다. 확인한 뒤 APPLE_PT 에 넣으면 애플 쪽도 집계된다.
+    (function () {
+      var APPLE_PT = '';   // 예: '123456789'
+      var c = new URLSearchParams(location.search).get('c');
+      if (!c) return;
+      c = c.replace(/[^a-z0-9_-]/gi, '').slice(0, 40);
+      if (!c) return;
+
+      var ios = document.getElementById('ios-link');
+      var and = document.getElementById('and-link');
+
+      ios.href += '?ct=' + encodeURIComponent(c) + '&mt=8'
+                + (APPLE_PT ? '&pt=' + encodeURIComponent(APPLE_PT) : '');
+
+      // Play 는 referrer 안에 UTM 문자열을 통째로 넣고, 그 값을 한 번 더 인코딩한다
+      and.href += '&referrer=' + encodeURIComponent(
+        'utm_source=' + c + '&utm_medium=referral&utm_campaign=launch'
+      );
+    })();
+    </script>
 
     <section class="card intro">
       <p>JLPT N5부터 N1까지 필수 단어 9,000개를 원어민 음성과 예문, 후리가나, 한국어 해석과 함께 학습합니다.</p>
