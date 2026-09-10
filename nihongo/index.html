@@ -45,7 +45,7 @@
     // pt 는 App Store Connect > 분석 > 획득 > 캠페인에서 링크를 한 번 생성하면
     // URL 안에 들어 있다. 확인한 뒤 APPLE_PT 에 넣으면 애플 쪽도 집계된다.
     (function () {
-      var APPLE_PT = '';   // 예: '123456789'
+      var APPLE_PT = '129013091';   // App Store Connect > 분석 > 획득 > 캠페인
       var c = new URLSearchParams(location.search).get('c');
       if (!c) return;
       c = c.replace(/[^a-z0-9_-]/gi, '').slice(0, 40);
