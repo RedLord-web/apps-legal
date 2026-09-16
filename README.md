@@ -24,11 +24,15 @@ apps-legal/
 │   ├── index.html
 │   ├── privacy.html
 │   └── terms.html
-└── baeugo/           ← 배우GO / 한국어 학습·TOPIK (com.knotlab.baeugo)
-    ├── gen-baeugo.mjs                 ← 다국어 문서 생성기 (단일 소스)
-    ├── index.html / index.{ko,ja,zh,vi}.html
-    ├── privacy.html / privacy.{ko,ja,zh,vi}.html
-    └── terms.html / terms.{ko,ja,zh,vi}.html
+├── baeugo/           ← 배우GO / 한국어 학습·TOPIK (com.knotlab.baeugo)
+│   ├── gen-baeugo.mjs                 ← 다국어 문서 생성기 (단일 소스)
+│   ├── index.html / index.{ko,ja,zh,vi}.html
+│   ├── privacy.html / privacy.{ko,ja,zh,vi}.html
+│   └── terms.html / terms.{ko,ja,zh,vi}.html
+└── fishingrig/       ← 낚시꾼의 책상 / 釣り人の机 (com.kagekiri.fishingrig)
+    ├── index.html
+    ├── privacy.html   ← ko/ja 토글 (minanoloto와 같은 방식)
+    └── terms.html     ← ko/ja 토글
 ```
 
 ## 새 앱 추가

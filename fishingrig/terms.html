@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index,follow" />
+  <title>이용약관 - 낚시꾼의 책상</title>
+  <link rel="stylesheet" href="../style.css" />
+  <style>
+    .lang-toggle {
+      display: flex; gap: 4px; justify-content: flex-end;
+      margin-bottom: 12px;
+    }
+    .lang-toggle button {
+      background: var(--card); border: 1px solid var(--border);
+      padding: 4px 10px; border-radius: 6px; font-size: 11px;
+      font-weight: 700; cursor: pointer; color: var(--muted);
+      font-family: inherit;
+    }
+    .lang-toggle button.active {
+      background: var(--text); border-color: var(--text); color: #fff;
+    }
+    [data-lang] { display: none; }
+    [data-lang].active { display: block; }
+    body.embed .back-link { display: none; }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <a class="back-link" href="./">← 낚시꾼의 책상</a>
+
+    <div class="lang-toggle">
+      <button id="btn-ko" class="active" onclick="setLang('ko')">한국어</button>
+      <button id="btn-ja" onclick="setLang('ja')">日本語</button>
+    </div>
+
+    <!-- ===== 한국어 ===== -->
+    <div data-lang="ko" class="active">
+      <h1>이용약관</h1>
+      <div class="effective">시행일: 2026년 09월 16일 · 앱: 낚시꾼의 책상 (釣り人の机)</div>
+
+      <section class="card">
+        <h2>제1조 (목적)</h2>
+        <p>본 약관은 매듭연구소(이하 "운영자")가 제공하는 모바일 애플리케이션 "낚시꾼의 책상"(이하 "앱")의 이용 조건과 절차, 운영자와 이용자 간의 권리·의무 및 책임 사항을 규정합니다.</p>
+      </section>
+
+      <section class="card">
+        <h2>제2조 (서비스 내용)</h2>
+        <p>앱은 다음 서비스를 제공합니다.</p>
+        <ul>
+          <li>낚시 채비 설계 및 보관, 부품·장비 관리</li>
+          <li>낚시 기록 및 낚시 포인트 보관</li>
+          <li>날씨·수온·파고·물때 정보 조회</li>
+          <li>전국 방파제(어항) 지도 제공</li>
+          <li>어종·매듭법·용어·환산표 등 낚시 정보 제공</li>
+          <li>이용자 간 채비 공유 (링크 전달 방식, 운영자 서버를 거치지 않음)</li>
+        </ul>
+        <p>앱은 무료로 제공되며 광고와 인앱 결제가 없습니다.</p>
+      </section>
+
+      <section class="card warning-card">
+        <h2>⚠️ 제3조 (정보의 성격과 책임 제한)</h2>
+        <p>① <strong>안전</strong> — 앱이 제공하는 날씨·수온·파고·물때 정보는 제3자 공개 데이터를 그대로 전달하는 참고 자료이며, 실제 해상 상황과 다를 수 있습니다. 출조 여부와 안전에 관한 판단은 전적으로 이용자의 책임이며, 기상특보·해경 및 관리주체의 통제 지시가 앱의 정보보다 우선합니다. 운영자는 앱 정보를 참고해 발생한 인적·물적 피해에 대해 책임지지 않습니다.</p>
+        <p>② <strong>수산자원 관련 정보</strong> — 앱이 표시하는 금어기·금지체장 정보는 공개된 자료를 정리한 참고용이며, 법령·고시의 최신 내용과 다를 수 있습니다. 실제 준수 의무는 해양수산부 및 각 지방자치단체의 고시를 따르며, 이용자는 출조 전 최신 고시를 직접 확인해야 합니다. 운영자는 앱 정보를 근거로 한 위법 행위의 결과에 책임지지 않습니다.</p>
+        <p>③ <strong>방파제 위치</strong> — 지도에 표시되는 어항 위치는 공공데이터를 기반으로 하며, 일부 항목은 근사 좌표입니다. 또한 실제 출입 가능 여부(사유지, 출입통제구역, 공사 중, 낚시 금지 구역 등)를 보장하지 않습니다. 현장 표지와 관리주체의 안내를 우선 따라야 합니다.</p>
+        <p>④ <strong>제3자 서비스</strong> — 천재지변, 통신장애, 제3자 서비스(Open-Meteo·국립해양조사원·OpenStreetMap·Google·Apple 등)의 장애나 데이터 변경으로 발생한 손해에 대해 운영자는 책임지지 않습니다.</p>
+        <p>⑤ <strong>데이터 보관</strong> — 앱의 모든 데이터는 이용자의 기기에만 저장됩니다. 운영자는 백업·복구 수단을 제공하지 않으며, 기기 분실·초기화·앱 삭제로 인한 데이터 소실에 책임지지 않습니다.</p>
+      </section>
+
+      <section class="card">
+        <h2>제4조 (이용자의 의무)</h2>
+        <p>이용자는 다음 행위를 해서는 안 됩니다.</p>
+        <ul>
+          <li>앱을 통해 얻은 정보를 근거로 금어기·금지체장·조업 금지 구역 등 관계 법령을 위반하는 행위</li>
+          <li>출입이 통제된 시설이나 사유지에 무단 진입하는 행위</li>
+          <li>공유 기능을 이용해 타인의 권리를 침해하거나 불쾌감을 주는 내용을 전달하는 행위</li>
+          <li>앱을 역공학·복제·재배포하거나 상업적으로 무단 이용하는 행위</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>제5조 (이용자가 만든 콘텐츠)</h2>
+        <p>이용자가 앱에서 작성한 채비·기록·포인트·사진의 권리는 이용자에게 있습니다. 해당 데이터는 기기에만 저장되므로 운영자는 이를 열람·수집·이용하지 않습니다.</p>
+        <p>이용자가 채비를 공유하는 경우, 공유 대상과 범위를 정하는 책임은 이용자에게 있습니다.</p>
+      </section>
+
+      <section class="card">
+        <h2>제6조 (서비스 변경 및 종료)</h2>
+        <p>운영자는 앱의 기능을 변경하거나 서비스를 종료할 수 있습니다. 앱은 무료로 제공되므로 이로 인한 금전적 보상은 발생하지 않으며, 기기에 저장된 데이터는 서비스 종료 이후에도 이용자의 기기에 그대로 남습니다.</p>
+      </section>
+
+      <section class="card">
+        <h2>제7조 (분쟁 해결)</h2>
+        <p>본 약관과 관련하여 운영자와 이용자 간에 분쟁이 발생한 경우 양자는 성실히 협의하여 해결하며, 협의가 불가능한 경우 대한민국 민사소송법에 따른 관할 법원에 따릅니다.</p>
+      </section>
+
+      <section class="card">
+        <h2>제8조 (문의)</h2>
+        <ul>
+          <li>운영자: 매듭연구소 (Studio Knotlab / スタジオ ノットラボ)</li>
+          <li>이메일: <a href="mailto:knotlabdev@gmail.com">knotlabdev@gmail.com</a></li>
+        </ul>
+      </section>
+
+      <div class="footer">
+        © 2026 매듭연구소 · <a href="privacy.html">개인정보처리방침</a>
+      </div>
+    </div>
+
+    <!-- ===== 日本語 ===== -->
+    <div data-lang="ja">
+      <h1>利用規約</h1>
+      <div class="effective">施行日: 2026年9月16日 · アプリ: 釣り人の机 (낚시꾼의 책상)</div>
+
+      <section class="card">
+        <h2>第1条 (目的)</h2>
+        <p>本規約は、スタジオ ノットラボ (以下「運営者」) が提供するモバイルアプリケーション「釣り人の机」 (以下「本アプリ」) の利用条件と手順、運営者と利用者間の権利・義務および責任事項を規定します。</p>
+      </section>
+
+      <section class="card">
+        <h2>第2条 (サービス内容)</h2>
+        <p>本アプリは次のサービスを提供します。</p>
+        <ul>
+          <li>釣りの仕掛けの設計・保存、パーツ・タックルの管理</li>
+          <li>釣行記録および釣り場の保存</li>
+          <li>天気・水温・波高・潮汐情報の照会</li>
+          <li>韓国全土の堤防 (漁港) マップの提供</li>
+          <li>魚種・結び方・用語・換算表などの釣り情報の提供</li>
+          <li>利用者間の仕掛け共有 (リンク受け渡し方式。運営者のサーバーを経由しません)</li>
+        </ul>
+        <p>本アプリは無料で提供され、広告およびアプリ内課金はありません。</p>
+      </section>
+
+      <section class="card warning-card">
+        <h2>⚠️ 第3条 (情報の性質と責任の制限)</h2>
+        <p>① <strong>安全</strong> — 本アプリが提供する天気・水温・波高・潮汐の情報は、第三者の公開データをそのまま伝える参考資料であり、実際の海上状況と異なる場合があります。釣行の可否および安全に関する判断は全面的に利用者の責任であり、気象特報、海洋警察および管理者による規制の指示が本アプリの情報に優先します。運営者は、本アプリの情報を参考にしたことで生じた人的・物的被害について責任を負いません。</p>
+        <p>② <strong>水産資源に関する情報</strong> — 本アプリが表示する禁漁期・体長制限の情報は、公開資料を整理した参考用であり、法令・告示の最新内容と異なる場合があります。実際の遵守義務は各国・各自治体の規則に従い、利用者は釣行前に最新の規則を自ら確認する必要があります。運営者は、本アプリの情報を根拠とした違法行為の結果について責任を負いません。</p>
+        <p>③ <strong>堤防の位置</strong> — 地図に表示される漁港の位置は公共データに基づいており、一部の項目は概算座標です。また、実際に立ち入りが可能かどうか (私有地、立入制限区域、工事中、釣り禁止区域など) を保証するものではありません。現地の表示および管理者の案内に従ってください。</p>
+        <p>④ <strong>第三者サービス</strong> — 天災、通信障害、第三者サービス (Open-Meteo、国立海洋調査院、OpenStreetMap、Google、Apple など) の障害やデータ変更により生じた損害について、運営者は責任を負いません。</p>
+        <p>⑤ <strong>データの保管</strong> — 本アプリのすべてのデータは利用者の端末にのみ保存されます。運営者はバックアップ・復元の手段を提供しておらず、端末の紛失・初期化・アプリの削除によるデータ消失について責任を負いません。</p>
+      </section>
+
+      <section class="card">
+        <h2>第4条 (利用者の義務)</h2>
+        <p>利用者は次の行為をしてはなりません。</p>
+        <ul>
+          <li>本アプリで得た情報を根拠に、禁漁期・体長制限・操業禁止区域などの関係法令に違反する行為</li>
+          <li>立ち入りが制限された施設や私有地に無断で進入する行為</li>
+          <li>共有機能を利用して他人の権利を侵害し、または不快感を与える内容を送る行為</li>
+          <li>本アプリをリバースエンジニアリング・複製・再配布し、または商業的に無断利用する行為</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>第5条 (利用者が作成したコンテンツ)</h2>
+        <p>利用者が本アプリで作成した仕掛け・記録・釣り場・写真の権利は利用者に帰属します。これらのデータは端末にのみ保存されるため、運営者が閲覧・収集・利用することはありません。</p>
+        <p>利用者が仕掛けを共有する場合、共有の相手と範囲を決める責任は利用者にあります。</p>
+      </section>
+
+      <section class="card">
+        <h2>第6条 (サービスの変更および終了)</h2>
+        <p>運営者は本アプリの機能を変更し、またはサービスを終了することがあります。本アプリは無料で提供されるため、これによる金銭的補償は発生せず、端末に保存されたデータはサービス終了後も利用者の端末にそのまま残ります。</p>
+      </section>
+
+      <section class="card">
+        <h2>第7条 (紛争の解決)</h2>
+        <p>本規約に関して運営者と利用者の間に紛争が生じた場合、両者は誠実に協議して解決し、協議が不可能な場合は大韓民国民事訴訟法による管轄裁判所に従います。</p>
+      </section>
+
+      <section class="card">
+        <h2>第8条 (お問い合わせ)</h2>
+        <ul>
+          <li>運営者: スタジオ ノットラボ (Studio Knotlab)</li>
+          <li>メール: <a href="mailto:knotlabdev@gmail.com">knotlabdev@gmail.com</a></li>
+        </ul>
+      </section>
+
+      <div class="footer">
+        © 2026 スタジオ ノットラボ · <a href="privacy.html">プライバシーポリシー</a>
+      </div>
+    </div>
+  </main>
+
+<script>
+function setLang(lang) {
+  document.querySelectorAll('[data-lang]').forEach(el => {
+    el.classList.toggle('active', el.dataset.lang === lang);
+  });
+  document.querySelectorAll('.lang-toggle button').forEach(b => b.classList.remove('active'));
+  var btn = document.getElementById('btn-' + lang);
+  if (btn) btn.classList.add('active');
+  document.documentElement.lang = lang;
+  try { localStorage.setItem('legal-lang', lang); } catch (e) {}
+}
+// 우선순위: URL query > localStorage > 브라우저 언어 > ko (기본)
+(function() {
+  // embed 컨텍스트 감지 → body.embed 클래스 부여 (back-link 숨김 등)
+  if (/[?&]embed=1\b/.test(location.search)) {
+    document.body.classList.add('embed');
+  }
+
+  var lang = 'ko';
+  var m = location.search.match(/[?&]lang=(ko|ja)/);
+  if (m) {
+    lang = m[1];
+  } else {
+    try {
+      var saved = localStorage.getItem('legal-lang');
+      if (saved === 'ko' || saved === 'ja') {
+        lang = saved;
+      } else if ((navigator.language || '').slice(0,2) === 'ja') {
+        lang = 'ja';
+      }
+    } catch (e) {}
+  }
+  setLang(lang);
+})();
+</script>
+</body>
+</html>
