@@ -29,7 +29,7 @@ apps-legal/
 │   ├── index.html / index.{ko,ja,zh,vi}.html
 │   ├── privacy.html / privacy.{ko,ja,zh,vi}.html
 │   └── terms.html / terms.{ko,ja,zh,vi}.html
-└── fishingrig/       ← 낚시꾼의 책상 / 釣り人の机 (com.kagekiri.fishingrig)
+└── fishingrig/       ← 낚시꾼의 책상 / 釣り人の机 (kr.knotlab.fishingrig)
     ├── index.html
     ├── privacy.html   ← ko/ja 토글 (minanoloto와 같은 방식)
     └── terms.html     ← ko/ja 토글
