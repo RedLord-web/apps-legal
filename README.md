@@ -29,10 +29,15 @@ apps-legal/
 │   ├── index.html / index.{ko,ja,zh,vi}.html
 │   ├── privacy.html / privacy.{ko,ja,zh,vi}.html
 │   └── terms.html / terms.{ko,ja,zh,vi}.html
-└── fishingrig/       ← 채비노트 / 仕掛けノート (kr.knotlab.fishingrig)
-    ├── index.html
-    ├── privacy.html   ← ko/ja 토글 (minanoloto와 같은 방식)
-    └── terms.html     ← ko/ja 토글
+├── fishingrig/       ← 채비노트 / 仕掛けノート (kr.knotlab.fishingrig)
+│   ├── index.html
+│   ├── privacy.html   ← ko/ja 토글 (minanoloto와 같은 방식)
+│   └── terms.html     ← ko/ja 토글
+└── dodam/            ← 도담 / ドダム / 외국인 부모용 성장 기록 (com.knotlab.dodam)
+    ├── gen-dodam.mjs                  ← 다국어 문서 생성기 (배우GO와 같은 방식)
+    ├── index.html / index.{ko,ja,zh,vi}.html
+    ├── privacy.html / privacy.{ko,ja,zh,vi}.html
+    └── terms.html / terms.{ko,ja,zh,vi}.html
 ```
 
 ## 새 앱 추가
@@ -53,6 +58,8 @@ cd baeugo && node gen-baeugo.mjs   # 15개 파일(3종 × 5언어) 재생성
 ```
 
 내용 수정 시 HTML을 직접 고치지 말고 생성기의 문자열을 고친 뒤 재생성할 것.
+
+도담도 같은 방식이다: `cd dodam && node gen-dodam.mjs`
 
 ## 문의
 
