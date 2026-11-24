@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n5/noun-1/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n5/noun-2/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n5/noun-3/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n5/noun-4/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n5/noun-5/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n5/noun-suru/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n5/noun-kanji-1/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n5/noun-kanji-2/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n5/noun-kanji-3/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n5/noun-mixed/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n5/noun-kana/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://apps.knotlab.kr/nihongo/words/n5/verb/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://apps.knotlab.kr/nihongo/words/n5/i-adj/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://apps.knotlab.kr/nihongo/words/n5/na-adj/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://apps.knotlab.kr/nihongo/words/n5/adverb/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://apps.knotlab.kr/nihongo/words/n5/other/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://apps.knotlab.kr/nihongo/words/n5/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n4/noun-1/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n4/noun-2/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n4/noun-3/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n4/noun-4/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n4/noun-suru/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n4/noun-kanji-1/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n4/noun-kanji-2/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n4/noun-mixed/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n4/noun-kana/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://apps.knotlab.kr/nihongo/words/n4/verb-1/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://apps.knotlab.kr/nihongo/words/n4/verb-2/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://apps.knotlab.kr/nihongo/words/n4/i-adj/</loc><changefreq>monthly</changefreq></url>
@@ -22,17 +24,19 @@
   <url><loc>https://apps.knotlab.kr/nihongo/words/n4/adverb/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://apps.knotlab.kr/nihongo/words/n4/other/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://apps.knotlab.kr/nihongo/words/n4/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n3/noun-1/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n3/noun-2/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n3/noun-3/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n3/noun-4/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n3/noun-5/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n3/noun-6/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n3/noun-7/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n3/noun-8/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n3/noun-9/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n3/noun-10/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n3/noun-11/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n3/noun-suru-1/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n3/noun-suru-2/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n3/noun-suru-3/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n3/noun-kanji-1/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n3/noun-kanji-2/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n3/noun-kanji-3/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n3/noun-kanji-4/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n3/noun-kanji-5/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n3/noun-kanji-6/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n3/noun-kanji-7/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n3/noun-mixed/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n3/noun-kana-1/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n3/noun-kana-2/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://apps.knotlab.kr/nihongo/words/n3/verb-1/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://apps.knotlab.kr/nihongo/words/n3/verb-2/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://apps.knotlab.kr/nihongo/words/n3/i-adj/</loc><changefreq>monthly</changefreq></url>
@@ -40,17 +44,19 @@
   <url><loc>https://apps.knotlab.kr/nihongo/words/n3/adverb/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://apps.knotlab.kr/nihongo/words/n3/other/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://apps.knotlab.kr/nihongo/words/n3/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n2/noun-1/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n2/noun-2/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n2/noun-3/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n2/noun-4/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n2/noun-5/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n2/noun-6/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n2/noun-7/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n2/noun-8/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n2/noun-9/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n2/noun-10/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n2/noun-11/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n2/noun-suru-1/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n2/noun-suru-2/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n2/noun-suru-3/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n2/noun-kanji-1/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n2/noun-kanji-2/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n2/noun-kanji-3/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n2/noun-kanji-4/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n2/noun-kanji-5/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n2/noun-kanji-6/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n2/noun-kanji-7/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n2/noun-mixed/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n2/noun-kana-1/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n2/noun-kana-2/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://apps.knotlab.kr/nihongo/words/n2/verb-1/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://apps.knotlab.kr/nihongo/words/n2/verb-2/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://apps.knotlab.kr/nihongo/words/n2/verb-3/</loc><changefreq>monthly</changefreq></url>
@@ -60,27 +66,28 @@
   <url><loc>https://apps.knotlab.kr/nihongo/words/n2/adverb/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://apps.knotlab.kr/nihongo/words/n2/other/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://apps.knotlab.kr/nihongo/words/n2/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n1/noun-1/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n1/noun-2/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n1/noun-3/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n1/noun-4/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n1/noun-5/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n1/noun-6/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n1/noun-7/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n1/noun-8/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n1/noun-9/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n1/noun-10/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n1/noun-11/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n1/noun-12/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n1/noun-13/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n1/noun-14/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n1/noun-15/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n1/noun-16/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n1/noun-17/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n1/noun-18/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n1/noun-19/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n1/noun-20/</loc><changefreq>monthly</changefreq></url>
-  <url><loc>https://apps.knotlab.kr/nihongo/words/n1/noun-21/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n1/noun-suru-1/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n1/noun-suru-2/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n1/noun-suru-3/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n1/noun-suru-4/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n1/noun-suru-5/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n1/noun-suru-6/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n1/noun-kanji-1/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n1/noun-kanji-2/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n1/noun-kanji-3/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n1/noun-kanji-4/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n1/noun-kanji-5/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n1/noun-kanji-6/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n1/noun-kanji-7/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n1/noun-kanji-8/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n1/noun-kanji-9/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n1/noun-kanji-10/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n1/noun-kanji-11/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n1/noun-mixed-1/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n1/noun-mixed-2/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n1/noun-mixed-3/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n1/noun-kana-1/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://apps.knotlab.kr/nihongo/words/n1/noun-kana-2/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://apps.knotlab.kr/nihongo/words/n1/verb-1/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://apps.knotlab.kr/nihongo/words/n1/verb-2/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://apps.knotlab.kr/nihongo/words/n1/verb-3/</loc><changefreq>monthly</changefreq></url>
